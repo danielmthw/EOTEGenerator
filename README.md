@@ -19,6 +19,15 @@ The release includes a compiled version of the app, `EOTEGenerator.exe`, that al
 
 ---
 
+## Screenshot
+
+Here’s what the **End-of-Term Email Generator** looks like in action:
+
+![End-of-Term Email Generator](https://lh3.googleusercontent.com/d/18rBxWvc_UfTWzukymmb-su5pUSoB--i6)
+
+
+---
+
 ## Installation
 
 You have two options to run the End-of-Term Email Generator:
