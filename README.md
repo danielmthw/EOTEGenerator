@@ -16,6 +16,9 @@ The release includes a compiled version of the app, `EOTEGenerator.exe`, that al
   - Send the generated email directly via Outlook.
   - Clear or reset input fields.
 - **Safe and self-contained** — no data is stored or transmitted. All email generation happens locally.
+- **Calendar widget integration** for selecting the leaver's last working day.
+- **Input validation** for proper name formatting.
+- **Formatted email preview** directly in the app.
 
 ---
 
@@ -23,9 +26,7 @@ The release includes a compiled version of the app, `EOTEGenerator.exe`, that al
 
 Here’s what the **End-of-Term Email Generator** looks like in action:
 
-![End-of-Term Email Generator](https://lh3.googleusercontent.com/d/18rBxWvc_UfTWzukymmb-su5pUSoB--i6)
-
-
+![End-of-Term Email Generator](https://lh3.googleusercontent.com/d/1UPveIlDbXHrGV8UCad7dSzTo_fUHy-XY)
 ---
 
 ## Installation
@@ -44,6 +45,7 @@ You have two options to run the End-of-Term Email Generator:
 2. Install Python dependencies (if needed) and run the script:
 
    ```bash
+   pip install -r requirements.txt
    python EOTEGenerator.py
    ```
 
@@ -53,7 +55,7 @@ For Windows users who prefer not to install Python, you can download the standal
 
 - **EOTEGenerator.exe** — ready to run, no installation required.
 - Download the latest version here:  
-  [EOTEGenerator.exe - v1.0.0](https://github.com/danielmthw/EOTEGenerator/releases/download/v1.0.0/EOTEGenerator.exe)
+  [EOTEGenerator.exe - v1.1.0](https://github.com/danielmthw/EOTEGenerator/releases/download/v1.1.0/EOTEGenerator.exe)
 
 ---
 
@@ -66,6 +68,16 @@ For Windows users who prefer not to install Python, you can download the standal
 
 ---
 
+## Changelog
+
+### v1.1.0 (April 2025)
+
+- **Added calendar widget** (`tkcalendar`) for selecting leaver's last day.
+- **Implemented input validation** for names (disallowing invalid characters).
+- **Improved email formatting** for clarity and consistency.
+- **Enhanced error handling** for missing fields and invalid dates.
+- **Added real-time date label updates** below the calendar.
+
 ## Notes
 
 - Email client integration works with your system’s default mail handler (e.g., Outlook).
@@ -76,6 +88,7 @@ For Windows users who prefer not to install Python, you can download the standal
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/danielmthw/EOTEGenerator/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/danielmthw/EOTEGenerator/blob/main/LICENSE) file for details.  
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 
