@@ -1,5 +1,13 @@
-
 # End-of-Term Email Generator
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![Tkinter](https://img.shields.io/badge/GUI-Tkinter-green.svg)
+![tkcalendar](https://img.shields.io/badge/Date%20Picker-tkcalendar-orange.svg)
+![License: Free](https://img.shields.io/badge/license-Free-lightgrey.svg)
+
+---
+
+##  Description
 
 **End-of-Term Email Generator** (EOTEGenerator) is a Windows application designed to streamline the process of generating professional offboarding emails. This Python script uses the `tkinter` library to create a graphical user interface (GUI) for generating standardized End-of-Term (EOT) emails for team members who are offboarding. The app allows users to easily create offboarding emails, including the relevant details about the employee's last day, supervisor's name, and necessary instructions.
 
